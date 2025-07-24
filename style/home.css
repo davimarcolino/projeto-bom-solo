@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+article {
+    padding: 7px;
+    border: 2px solid black;
+}
+section {
+    padding: 7px;
+    border: 2px solid black;
+    border-top: 0;
+}
+section#first {
+    border-top: 2px solid black;
+}
+img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}

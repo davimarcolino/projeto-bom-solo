@@ -5,7 +5,7 @@
 
 :root {
     --title-font: "Bentham", serif;
-    --main-font: Arial, Helvetica, sans-serif;
+    --main-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     --highlight-font: "Roboto Mono", monospace;
 }
 * {
@@ -29,13 +29,13 @@ header {
     max-width: 400px;
     margin: auto;
 }
-nav {
+menu {
     background-color: white;
     padding: 2px;
     border: 2px solid black;
     border-top: 0;
 }
-nav > a {
+menu > a {
     font-family: var(--title-font);
     font-weight: 400;
     font-style: normal;
@@ -47,7 +47,7 @@ nav > a {
     padding: 2px 6px;
     border-radius: 6px;
 }
-nav > a:hover {
+menu > a:hover {
     transition: 0.3s;
     background-color: black;
     color: white;
@@ -87,7 +87,6 @@ main p {
     text-indent: 15px;
     line-height: 2.1em;
     padding: 10px 0px;
-    text-align: justify;
 }
 main a, main abbr {
     font-family: var(--highlight-font);
